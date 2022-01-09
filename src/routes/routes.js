@@ -2,7 +2,7 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const Mail = require('../../src/services/email/email');
 const MailChimp = require('../../src/services/mailchimp/mailchimp');
-const Client = require('../../src/repository/client');
+const Client = require('../../src/repository/Client');
 
 // const app = express();
 const mainRoutes = express.Router();
